@@ -315,39 +315,67 @@ hr {
     z-index: 10;
     font-size: 0px; }
   .tile.tile-2 .tile-inner {
-	background:url('2.jpg') no-repeat center;
-    }
+	background:url('2.jpg') no-repeat center;}
 	@media screen and (max-width: 480px) {
 	.tile.tile-2 .tile-inner {
 	background:url('2s.jpg') no-repeat center;}}
   .tile.tile-4 .tile-inner {
-    background:url('4.jpg') no-repeat center;
-	}
+    background:url('4.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-4 .tile-inner {
+	background:url('4s.jpg') no-repeat center;}}
   .tile.tile-8 .tile-inner {
-	background:url('8.jpg') no-repeat center;
-    }
+	background:url('8.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-8 .tile-inner {
+	background:url('8s.jpg') no-repeat center;}}
   .tile.tile-16 .tile-inner {
-    background:url('16.jpg') no-repeat center;
-	}
+    background:url('16.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-16 .tile-inner {
+	background:url('16s.jpg') no-repeat center;}}
   .tile.tile-32 .tile-inner {
     background:url('32.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-32 .tile-inner {
+	background:url('32s.jpg') no-repeat center;}}
   .tile.tile-64 .tile-inner {
     background:url('64.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-64 .tile-inner {
+	background:url('64s.jpg') no-repeat center;}}
   .tile.tile-128 .tile-inner {
     background:url('128.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-128 .tile-inner {
+	background:url('128s.jpg') no-repeat center;}}
   .tile.tile-256 .tile-inner {
     background:url('256.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-256 .tile-inner {
+	background:url('256s.jpg') no-repeat center;}}
   .tile.tile-512 .tile-inner {
     background:url('512.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-512 .tile-inner {
+	background:url('512s.jpg') no-repeat center;}}
   .tile.tile-1024 .tile-inner {
     background:url('1024.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-1024 .tile-inner {
+	background:url('1024s.jpg') no-repeat center;}}
   .tile.tile-2048 .tile-inner {
     background:url('2048.jpg') no-repeat center;}
+	@media screen and (max-width: 480px) {
+	.tile.tile-2048 .tile-inner {
+	background:url('2048s.jpg') no-repeat center;}}
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
     font-size: 30px; }
-
+	@media screen and (max-width: 480px) {
+      .tile.tile-super .tile-inner {
+        font-size: 10px; } }
 
 @-webkit-keyframes appear {
   0% {
