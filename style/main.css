@@ -317,6 +317,9 @@ hr {
   .tile.tile-2 .tile-inner {
 	background:url('2.jpg') no-repeat center;
     }
+	@media screen and (max-width: 480px) {
+	.tile.tile-2 .tile-inner {
+	background:url('2s.jpg') no-repeat center;}}
   .tile.tile-4 .tile-inner {
     background:url('4.jpg') no-repeat center;
 	}
@@ -640,7 +643,7 @@ hr {
     margin-top: 20px; }
 
   .tile .tile-inner {
-    font-size: 35px; }
+    font-size: 0px; }
 
   .game-message p {
     font-size: 30px !important;
